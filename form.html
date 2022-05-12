@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/main.css">
+    <script src="https://kit.fontawesome.com/62ddc7885f.js" crossorigin="anonymous"></script>
+    <title>Formulario UNTMRA</title>
+</head>
+<body>
+    <div class= "containerhome">
+        <span class="nav-bar">
+            <i class="fas fa-bars" id="btnMenu"></i>
+        </span>
+        <nav class="main-nav">
+            <ul class="menu" id="menu">
+                <a href="home.html"> <img class="logo" src="/assets/logo.jpg"></a>
+                <li class="menu__item">
+                    <a href="/fechas/remates" class="menu_link">Conoce tus derechos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/productos" class="menu_link">Noticias</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/turismo" class="menu_link">Convenios</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/contacto" class="menu_link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="menu.js"></script>
+        <h1 class="titulo">Formulario de inscripción para bolsa de trabajo</h1>
+        <div class="formcontainer">
+            <form class="form">
+                    <label>
+                        Nombre Completo
+                        <input type="text" name="nombre" placeholder='Nombres' />
+                    </label>
+                    <label>
+                        Apellidos
+                        <input type="text" name="segundonombre" placeholder='Apellidos' />
+                    </label>
+                    <label>
+                        Edad
+                        <input type="text" name="edad" placeholder='Edad' />
+                    </label>
+                    <label>
+                        Género
+                        <select name="género">
+                            <option>Femenino</option>
+                            <option>Masculino</option>
+                            <option>Transgénero</option>
+                            <option>No binario</option>
+                        </select>
+                    </label>
+                        ¿Cual consideras que es tu ascendencia racial principal?
+                    <label>
+                        <select name="asc.racial">
+                            <option>Afro</option>
+                            <option>Asíatica</option>
+                            <option>Indígena</option>
+                            <option>Blanca</option>
+                            <option>Otra</option>
+                        </select>
+                    </label>
+                    ¿Cual es tu especialización?
+                    <label>
+                        <select name="asc.racial">
+                            <option>Op. Metalúrgico al inicio</option>
+                            <option>Op. Metalúrgico Cat.1</option>
+                            <option>Medio Oficial Metal. Cat.2</option>
+                            <option>Oficial Cat.3</option>
+                            <option>Oficial Cat.4</option>
+                            <option>Oficial Cat.5</option>
+                            <option>Oficial Cat.6</option>
+                            <option>Oficial especializado 7</option>
+                            <option>Cadete</option>
+                            <option>Montador</option>
+                            <option>Cobrador</option>
+                            <option>Programador</option>
+                            <option>Otros</option>
+                        </select>
+                    </label>
+                    <label>
+                    Hijos a cargo
+                        <input type="text" name="hijos" placeholder='0 en el caso de no tener'/>
+                    </label>
+                    <label>
+                    Personas mayores a cargo
+                        <input type="text" name="mayores" placeholder='0 en el caso de no tener'/>
+                    </label>
+                    <label>
+                    ¿Tienes algúna enfermedad crónica?
+                        <input type="text" name="enfermedad" placeholder='enfermedad crónica'/>
+                    </label>
+                    <label>
+                        <textarea placeholder="escribe tu mensaje"></textarea>
+                    </label>
+                    <button class='botonenviar' type="submit" value="Enviar">Finalizar</button>
+                    
+            </form>
+        </div>
+</body>
+</html>
